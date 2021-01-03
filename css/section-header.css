@@ -1,0 +1,39 @@
+.section-header
+{
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 80px 20px;
+   
+}
+
+.section-header h2
+{
+    font-weight: bold;
+    margin: 0;
+}
+
+.section-header h2:after
+{
+    display: block;
+    content: '';
+    width: 120px;
+    height: 3px;
+	background: #FF9F1C;
+    margin: 30px auto;
+}
+
+@media (max-width: 800px)
+{
+    .section-header
+    {
+        padding-top: 50px;
+        padding-bottom: 55px;
+    }
+	
+	.section-header:after
+	{
+		margin-top: 30px;
+	}
+	
+}

@@ -1,0 +1,126 @@
+*, *:before, *:after
+{
+	box-sizing: border-box;
+}
+
+/*
+red: 
+yellow: 
+headings: #333;
+text:
+*/
+body
+{
+	color:#4d4d4d;
+	font-family: 'Didact Gothic', sans-serif;
+	font-size: 18px;
+	margin: 0;
+}
+
+ul
+{
+	list-style: none;
+}
+
+a
+{
+	text-decoration: none;
+	transition: all 200ms ease;
+}
+
+a:hover
+{
+	cursor: pointer;
+}
+
+.pogrubienie
+{
+	font-weight: 700;
+}
+
+button:hover
+{
+	cursor: pointer;
+}
+
+h1,h2,h3,h4,h5,h6
+{
+	color: #333;
+}
+
+h1,h2,h3
+{
+	line-height: 1.2;
+}
+
+h4,h5,h6
+{
+	line-height: 1.3;
+}
+
+h1
+{
+	font-size: 54px;
+}
+
+h2
+{
+	font-size: 46px;
+}
+
+h3
+{
+	font-size: 32px;
+}
+
+h4
+{
+	font-size: 24px;
+}
+
+h5
+{
+	font-size: 20px;
+}
+
+h6
+{
+	font-size: 18px;
+}
+
+p
+{
+	margin: 0 0 12px;
+}
+
+
+/*Images*/
+img
+{
+	max-width: 100%;
+	height: auto;
+}
+
+/* FORMS */
+
+input, textarea, select, button
+{
+	font-family: 'Didact Gothic', Arial, sans-serif;
+	line-height: 1.4;
+}
+
+input, textarea, select
+{
+	border: 2px solid #ccc;
+	padding: 6px 12px;
+}
+
+
+/*RWD*/
+
+@media (max-width: 990px)
+{
+	body {
+		padding-top:0;
+	}
+}

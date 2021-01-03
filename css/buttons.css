@@ -1,0 +1,19 @@
+.btn
+{
+	background: #333;
+	display: inline-block;
+	border-radius: 3px;
+	padding: 6px 20px;
+	color: #fff;
+	border: 0;
+	font-size: 16px;
+	letter-spacing: 1px;
+	transition: all ease-in-out 250ms;
+}
+
+.btn:hover
+{
+	color: #333;
+	background: #fff;
+	transform: scale(0.9)
+}

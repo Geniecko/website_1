@@ -1,0 +1,94 @@
+.page-header > .container
+{
+	justify-content: flex-end;
+}
+
+.page-header
+{
+	background: #fff;
+	position: fixed;
+	z-index: 999;
+	right: 0;
+	top: 0;
+	left: 0;
+	padding: 4px 0;
+	box-shadow: 0 0 24px rgba(0,0,0,0.12);
+}
+
+.menu-links
+{
+	margin: 10px 0;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+
+.menu-links ul
+{
+	margin: 0;
+	padding: 0;
+}
+
+.menu-links li
+{
+	display: inline-block;
+	margin: 0 5px;
+}
+
+.menu-links li a
+{
+	position: relative;
+	display: block;
+	color: #333;
+	padding: 5px 15px;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+
+.menu-links li a::after
+{
+	content: '';
+	position: absolute;
+	left: 50%;
+	bottom: 0;
+	transform: translateX(-50%) scaleX(0);
+	transform-origin: 50% 50%;
+	width: 80%;
+	height: 2px;
+	background:#FF9F1C;
+	transition: transform 250ms;
+}
+
+.menu-links li a:hover::after
+{
+	transform: translateX(-50%) scaleX(1);
+}
+
+@media (max-width:500px)
+{
+	.page-header > .container
+	{
+		justify-content: flex-end;
+	}
+	
+	.menu-links li a
+	{
+		font-size: 14px;
+		padding: 3px 8px;
+	}
+	
+	.page-header
+	{
+		padding: 0;
+	}
+}
+
+@media (max-width:360px)
+{
+	.menu-links li a
+	{
+		font-size: 12px;
+		padding: 0 5px;
+	}
+	
+}
